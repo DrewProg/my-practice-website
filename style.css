@@ -8,13 +8,13 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 .header {
-
+    width: 100%;
 }
 
 .header__content {
@@ -49,6 +49,10 @@ body {
     margin: 0 auto 206px;
 }
 
+.header__button:hover {
+    background-color: rgb(206, 206, 206);
+}
+
 .menu {
     margin: 0;
     padding: 0;
@@ -65,8 +69,12 @@ body {
     font-weight: 400;
     letter-spacing: 0.04em;
     color: #989696;
-    text-decoration: none;
+    /* text-decoration: none; */
     margin-right: 43px;
+}
+
+.menu__item a:hover{
+    color: #7c7c7c;
 }
 
 .menu__item:last-child a {
